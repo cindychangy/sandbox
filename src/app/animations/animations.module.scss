@@ -1,0 +1,144 @@
+.body {
+  background: #101c3f;
+  height: 100vh;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  padding: 100px;
+  margin: auto;
+  max-width: 800px;
+  font-family: 'MierB-Regular', sans-serif;
+  position: relative;
+
+  p {
+    margin: 0;
+  }
+}
+
+.kibana {
+  background: #101C3F;
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+  padding: 12px 25px;
+  box-shadow: 4px 0px 31px 16px #0C3767;
+
+  .logo svg {
+    width: 70px;
+  }
+
+  .kibanaTitle {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-block: 10px;
+  }
+
+  .checkbox {
+    border: 1px solid #3F4A69;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+
+  .label,
+  .labelDisabled {
+    margin-left: 10px;
+    color: #cecece;
+    font-size: 13px;
+  }
+
+  .labelDisabled {
+    color: #656D82;
+  }
+}
+
+.answer {
+  padding: 25px;
+  color: #d1d1dc;
+  background: #21387E;
+  border-radius: 10px;
+  max-width: 480px;
+  position: absolute;
+  top: 170px;
+  right: 0;
+
+  .title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: flex;
+
+
+    .icon svg {
+      width: 25px;
+      height: 25px;
+      margin-right: 10px;
+    }
+  }
+
+  p {
+    line-height: 1.5;
+    margin-bottom: 45px;
+  }
+}
+
+.searchQuery {
+  background: #fff;
+  border: 6px solid #FF957D;
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 500;
+  width: 500px;
+  height: 60px;
+  padding-left: 40px;
+  line-height: 2.6;
+  position: absolute;
+  top: 360px;
+  right: 200px;
+}
+
+.codeBlock {
+  border: 2px #21387E solid;
+  color: #FF957D;
+  height: 300px;
+  width: 520px;
+  border-radius: 15px;
+
+  hr {
+    border-color: #21387E;
+    margin-top: 30px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+}
+
+
+.hr,
+.hrAlt {
+  border-color: #101c40;
+  border-width: 2px;
+  margin: 0;
+}
+
+.hrAlt {
+  border-width: 1px;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+.emojiTitle {
+  color: #fff;
+  font-size: 11px;
+  padding-bottom: 20px;
+}
