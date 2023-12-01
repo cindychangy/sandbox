@@ -13,12 +13,12 @@ const mierB = localFont({
     {
       path: '../../public/fonts/mierb-demi-webfont.woff2',
       weight: '500',
-      style: 'italic',
+      style: 'semi-bold',
     },
     {
       path: '../../public/fonts/mierb-bold-webfont.woff2',
       weight: '700',
-      style: 'normal',
+      style: 'bold',
     }
   ],
 })

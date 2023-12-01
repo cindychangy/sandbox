@@ -5,7 +5,6 @@
 
 .flexContainer {
   display: flex;
-  align-items: center;
 }
 
 .container {
@@ -23,18 +22,19 @@
 .kibana {
   background: #101C3F;
   border-radius: 10px;
-  height: 400px;
-  width: 400px;
-  padding: 12px 25px;
+  max-width: 375px;
+  padding: 5px 18px 20px 18px;
   box-shadow: 4px 0px 31px 16px #0C3767;
+  position: relative;
+  z-index: 2;
 
   .logo svg {
-    width: 70px;
+    width: 45px;
   }
 
   .kibanaTitle {
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     margin-block: 10px;
   }
@@ -50,9 +50,10 @@
 
   .label,
   .labelDisabled {
-    margin-left: 10px;
+    margin-left: 25px;
     color: #cecece;
-    font-size: 13px;
+    font-size: 11px;
+    margin-top: -1px;
   }
 
   .labelDisabled {
@@ -61,20 +62,21 @@
 }
 
 .answer {
-  padding: 25px;
+  padding: 15px 20px;
   color: #d1d1dc;
   background: #21387E;
   border-radius: 10px;
-  max-width: 480px;
+  max-width: 400px;
   position: absolute;
-  top: 170px;
-  right: 0;
+  top: 155px;
+  right: 150px;
+  z-index: 3;
 
   .title {
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     display: flex;
 
 
@@ -87,7 +89,8 @@
 
   p {
     line-height: 1.5;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
+    font-size: 13px;
   }
 }
 
@@ -95,23 +98,30 @@
   background: #fff;
   border: 6px solid #FF957D;
   border-radius: 50px;
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 500;
-  width: 500px;
-  height: 60px;
-  padding-left: 40px;
-  line-height: 2.6;
+  width: 420px;
+  height: 45px;
+  padding-left: 25px;
+  line-height: 2.5;
   position: absolute;
-  top: 360px;
-  right: 200px;
+  top: 300px;
+  right: 263px;
+  z-index: 4;
 }
 
 .codeBlock {
   border: 2px #21387E solid;
   color: #FF957D;
   height: 300px;
-  width: 520px;
+  max-width: 600px;
   border-radius: 15px;
+  font-weight: 300;
+  white-space: normal;
+  position: absolute;
+  z-index: 1;
+  right: 80px;
+  top: 300px;
 
   hr {
     border-color: #21387E;
@@ -123,22 +133,21 @@
   }
 }
 
-
 .hr,
 .hrAlt {
-  border-color: #101c40;
-  border-width: 2px;
+  background: #21387E;
   margin: 0;
+  width: 100%;
+  height: 2px;
 }
 
 .hrAlt {
-  border-width: 1px;
-  padding-top: 15px;
-  margin-bottom: 15px;
+  height: 1px;
+  margin: 10px 0;
 }
 
 .emojiTitle {
   color: #fff;
-  font-size: 11px;
-  padding-bottom: 20px;
+  font-size: 9px;
+  padding-bottom: 15px;
 }

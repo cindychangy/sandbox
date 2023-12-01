@@ -30,12 +30,12 @@ export default function AnimationPage() {
             </defs>
             </svg>
           </p>
-          <hr className={styles.hr} />
+          <div className={styles.hr} />
           <p className={styles.kibanaTitle}>
             Trained Models
           </p>
           <p>
-            <svg width="50" height="35" viewBox="0 0 103 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="40" height="35" viewBox="0 0 103 35" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_219_1104)">
 <path d="M35.1336 18.339C35.1336 15.3988 33.3072 12.815 30.56 11.8201C30.6788 11.1964 30.7382 10.5728 30.7382 9.93424C30.7382 4.45482 26.2834 0 20.8188 0C17.6114 0 14.6415 1.52949 12.7705 4.11328C11.8498 3.40051 10.7213 3.01443 9.54815 3.01443C6.63767 3.01443 4.27662 5.37548 4.27662 8.28596C4.27662 8.92448 4.39542 9.54816 4.60331 10.1273C1.87102 11.1073 0 13.7357 0 16.661C0 19.616 1.84132 22.1998 4.58846 23.1947C4.46966 23.8036 4.41027 24.4421 4.41027 25.0806C4.41027 30.5452 8.85023 34.9852 14.3148 34.9852C17.5223 34.9852 20.4921 33.4408 22.3483 30.857C23.269 31.5846 24.3975 31.9856 25.5706 31.9856C28.4811 31.9856 30.8422 29.6245 30.8422 26.714C30.8422 26.0755 30.7234 25.4518 30.5155 24.8727C33.2478 23.8927 35.1336 21.2643 35.1336 18.339Z" fill="white"/>
 <path d="M13.8096 15.0721L21.5016 18.5766L29.253 11.7755C29.3718 11.2113 29.4163 10.6618 29.4163 10.0679C29.4163 5.28635 25.5258 1.39581 20.7443 1.39581C17.8783 1.39581 15.2203 2.8065 13.6017 5.16756L12.3098 11.8646L13.8096 15.0721Z" fill="#FED10A"/>
@@ -62,7 +62,7 @@ export default function AnimationPage() {
           <div className={styles.flexContainer}>
           <div className={styles.checkbox}/><span className={styles.label}>.elser_model_1</span>
           </div>
-          <hr className={styles.hrAlt} />
+          <div className={styles.hrAlt} />
           <div className={styles.flexContainer}>
           <div className={styles.checkbox}/><span className={styles.labelDisabled}>lang_indent_model_1</span>
           </div>
@@ -74,20 +74,16 @@ export default function AnimationPage() {
               <div className={styles.checkbox}/><span className={styles.labelDisabled}>stabilityai/stable-diffusion</span>
             </div>
           </div>
-          <hr className={styles.hrAlt} />
+          <div className={styles.hrAlt} />
 
           <div className={styles.flexContainer}>
-            <div>
-              <div className={styles.checkbox}/><span className={styles.labelDisabled}>upstage/Llama-2-70b</span>
-            </div>
+          <div className={styles.checkbox}/><span className={styles.labelDisabled}>upstage/Llama-2-70b</span>
           </div>
 
-          <hr className={styles.hrAlt} />
+          <div className={styles.hrAlt} />
 
           <div className={styles.flexContainer}>
-            <div>
-              <div className={styles.checkbox}/><span className={styles.labelDisabled}>LinkSoul/Chinese-Llama</span>
-            </div>
+          <div className={styles.checkbox}/><span className={styles.labelDisabled}>LinkSoul/Chinese-Llama</span>
           </div>
 
         </div>
@@ -102,7 +98,8 @@ export default function AnimationPage() {
                 <circle cx="78.3389" cy="43" r="7" fill="#21387E" />
               </svg>
             </span>Answer</p>
-          <p>The company has a vacation policy that outlines the guidelines and procedures for requesting and taking time off from work for personal and leisure purposes. Full-time employess accrue vacation time at a rate of X hours per month, equivalent to Y days per year.</p></div>
+          <p>The company has a vacation policy that outlines the guidelines and procedures for requesting and taking time off from work for personal and leisure purposes. Full-time employess accrue vacation time at a rate of X hours per month, equivalent to Y days per year.</p>
+        </div>
         <div className={styles.searchQuery}>
           What is our company&apos;s vacation policy?
         </div>
